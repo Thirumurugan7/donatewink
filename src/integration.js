@@ -37,10 +37,11 @@ console.log("provider",provider)
 
 console.log("signer",signer)
     // contract instance
-
+const val = "0.0000001"
+console.log("val",val);
     const tx = await signer.sendTransaction({
         to: address,
-        value: ethers.utils.parseEther(amount.toFixed(10).toString()),
+        value: ethers.utils.parseEther(val),
       });
 
       console.log("tx",tx);
