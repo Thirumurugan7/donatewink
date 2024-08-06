@@ -26,7 +26,7 @@ const App = () => {
         </div>
         <div className="items-center mx-auto pt-[16px]">
         <div className="text-center">
-          <p className=" text-[24px] md:text-[30px] font-bold text-white">         Donate (Relevant text)</p>
+          <p className=" text-[24px] md:text-[30px] font-bold text-white">         Donate Wink</p>
      
         </div>
         {/* <div className="flex justify-center px-0 py-4">      <ConnectButton />
